@@ -70,7 +70,7 @@
 		<plugin name="cordova-plugin-network-information"  source="npm" />
 		<plugin name="cordova-plugin-splashscreen"  source="npm" />
 		<plugin name="cordova-plugin-vibration"  source="npm" />
- 
+		<plugin name="undefined" version="" source="npm"  />
 		
 		
 		<platform name="ios">
