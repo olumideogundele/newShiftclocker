@@ -1,21 +1,13 @@
 		<?xml version="1.0" encoding="UTF-8"?>
-	<widget xmlns = "http://www.w3.org/ns/widgets"
-		xmlns:gap = "http://phonegap.com/ns/1.0"
-		xmlns:android = "http://schemas.android.com/apk/res/android"
-		id        = "com.shiftclocker.com"
-		versionCode=""
-		version   = "">
-		<name>SHIFTCLOCKER INC		</name>
+	 <widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	id        = "com.binarysoft.emumap"
+	versionCode="1"
+	version   = "1.0">
+		<name>SHIFTCLOCKER		</name>
 		<description>Punch in made easy		</description>
 		<author href="http://online.shiftclocker.com" email="olumideogundele@gmai.com">Olumide Francis		</author>
-		<feature name="http://api.phonegap.com/1.0/battery" />
-		<feature name="http://api.phonegap.com/1.0/camera" />
-		<feature name="http://api.phonegap.com/1.0/contacts" />
-		<feature name="http://api.phonegap.com/1.0/file" />
-		<feature name="http://api.phonegap.com/1.0/geolocation" />
-		<feature name="http://api.phonegap.com/1.0/media" />
-		<feature name="http://api.phonegap.com/1.0/network" />
-		<feature name="http://api.phonegap.com/1.0/notification" />
+
 		<preference name="phonegap-version" value="cli-6.3.0" />
 		<preference name="android-build-tool" value="gradle" />
 		<preference name="orientation" value="default" />
@@ -53,23 +45,30 @@
 		<preference name="LoadingDialog" value="Shiftclocker,Shiftclocker" />
 		<preference name="LoadUrlTimeoutValue" value="20" />
 		
-		<plugin name="cordova-plugin-battery-status"  source="npm" />
-		<plugin name="cordova-plugin-camera"  source="npm" />
-		<plugin name="cordova-plugin-console"  source="npm" spec="undefined" />
-		<plugin name="cordova-plugin-contacts"  source="npm" />
-		<plugin name="cordova-plugin-device"  source="npm" spec="0.2.3" />
-		<plugin name="cordova-plugin-device-orientation"  source="npm" />
-		<plugin name="cordova-plugin-device-motion"  source="npm" />
-		<plugin name="cordova-plugin-dialogs"  source="npm" />
-		<plugin name="cordova-plugin-file-transfer"  source="npm" />
-		<plugin name="cordova-plugin-geolocation"  source="npm" />
-		<plugin name="cordova-plugin-globalization"  source="npm" />
-		<plugin name="cordova-plugin-inappbrowser"  source="npm" />
-		<plugin name="cordova-plugin-media"  source="npm" />
-		<plugin name="cordova-plugin-media-capture"  source="npm" />
-		<plugin name="cordova-plugin-network-information"  source="npm" />
-		<plugin name="cordova-plugin-splashscreen"  source="npm" />
-		<plugin name="cordova-plugin-vibration"  source="npm" />
+		<gap:plugin name="de.appplant.cordova.plugin.badge" source="npm" />
+    <gap:plugin name="org.apache.cordova.battery-status" source="npm" />
+    <gap:plugin name="org.apache.cordova.camera" source="npm"/>
+    <gap:plugin name="org.apache.cordova.media-capture" source="npm"/>
+    <gap:plugin name="org.apache.cordova.console" source="npm" />
+    <gap:plugin name="org.apache.cordova.contacts" source="npm"/>
+    <gap:plugin name="org.apache.cordova.device" source="npm" />
+    <gap:plugin name="org.apache.cordova.device-motion" source="npm"/>
+    <gap:plugin name="org.apache.cordova.device-orientation" source="npm"/>
+    <gap:plugin name="org.apache.cordova.dialogs" source="npm"/>
+    <gap:plugin name="org.apache.cordova.file" source="npm"/>
+    <gap:plugin name="org.apache.cordova.file-transfer" source="npm"/>
+    <gap:plugin name="org.apache.cordova.globalization" source="npm"/>
+    <gap:plugin name="org.apache.cordova.inappbrowser" source="npm"/>
+    <gap:plugin name="org.apache.cordova.media" source="npm"/>
+    <gap:plugin name="org.apache.cordova.network-information" source="npm"/>
+  <gap:plugin name="org.apache.cordova.splashscreen" source="npm"/>
+  
+    <gap:plugin name="org.apache.cordova.vibration" source="npm"/>
+    <icon src="images/logo.png" />
+		
+		
+		
+		 
  
 		
 		
