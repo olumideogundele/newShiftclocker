@@ -1,0 +1,153 @@
+		<?xml version="1.0" encoding="UTF-8"?>
+	<widget xmlns = "http://www.w3.org/ns/widgets"
+		xmlns:gap = "http://phonegap.com/ns/1.0"
+		xmlns:android = "http://schemas.android.com/apk/res/android"
+		id        = "online.shiftclocker.com"
+		versionCode="1"
+		version   = "1.0">
+		<name>SHIFTCLOCKER		</name>
+		<description>Punch in made easy		</description>
+		<author href="http://www.online.shiftclocker.com" email="info@shiftclocker.com">Olumide Francis		</author>
+		<feature name="http://api.phonegap.com/1.0/battery" />
+		<feature name="http://api.phonegap.com/1.0/camera" />
+		<feature name="http://api.phonegap.com/1.0/contacts" />
+		<feature name="http://api.phonegap.com/1.0/file" />
+		<feature name="http://api.phonegap.com/1.0/geolocation" />
+		<feature name="http://api.phonegap.com/1.0/media" />
+		<feature name="http://api.phonegap.com/1.0/network" />
+		<feature name="http://api.phonegap.com/1.0/notification" />
+		<plugin name="cordova-plugin-battery-status"  source="npm" />
+		<plugin name="cordova-plugin-camera"  source="npm" />
+		<plugin name="cordova-plugin-console"  source="npm" spec="undefined" />
+		<plugin name="cordova-plugin-contacts"  source="npm" />
+		<plugin name="cordova-plugin-device"  source="npm" spec="0.2.3" />
+		<plugin name="cordova-plugin-device-orientation"  source="npm" />
+		<plugin name="cordova-plugin-device-motion"  source="npm" />
+		<plugin name="cordova-plugin-dialogs"  source="npm" />
+		<plugin name="cordova-plugin-file-transfer"  source="npm" />
+		<plugin name="cordova-plugin-geolocation"  source="npm" />
+		<plugin name="cordova-plugin-globalization"  source="npm" />
+		<plugin name="cordova-plugin-inappbrowser"  source="npm" />
+		<plugin name="cordova-plugin-media"  source="npm" />
+		<plugin name="cordova-plugin-media-capture"  source="npm" />
+		<plugin name="cordova-plugin-network-information"  source="npm" />
+		<plugin name="cordova-plugin-splashscreen"  source="npm" />
+		<plugin name="cordova-plugin-vibration"  source="npm" />
+		<plugin name="undefined" version="" source="npm"  />
+		<preference name="phonegap-version" value="cli-6.3.0" />
+		<preference name="android-build-tool" value="gradle" />
+		<preference name="orientation" value="default" />
+		<preference name="fullscreen" value="true" />
+		<preference name="target-device" value="universal" />
+		<preference name="webviewbounce" value="true" />
+		<preference name="prerendered-icon" value="true" />
+		<preference name="stay-in-webview" value="true" />
+		<preference name="ios-statusbarstyle" value="black-opaque" />
+		<preference name="detect-data-types" value="true" />
+		<preference name="exit-on-suspend" value="false" />
+		<preference name="show-splash-screen-spinner" value="true" />
+		<preference name="auto-hide-splash-screen" value="true" />
+		<preference name="FadeSplashScreen " value="true" />
+		<preference name="EnableViewportScale" value="false" />
+		<preference name="MediaPlaybackRequiresUserAction" value="true" />
+		<preference name="AllowInlineMediaPlayback" value="true" />
+		<preference name="BackupWebStorage" value="local" />
+		<preference name="TopActivityIndicator" value="white" />
+		<preference name="KeyboardDisplayRequiresUserAction" value="true" />
+		<preference name="KeyboardShrinksView " value="true" />
+		<preference name="HideKeyboardFormAccessoryBar" value="true" />
+		<preference name="SuppressesIncrementalRendering" value="false" />
+		<preference name="windows-identity-name" value="" />
+		<preference name="android-minSdkVersion" value="7" />
+		<preference name="android-targetSdkVersion" value="19" />
+		<preference name="android-maxSdkVersion" value="23" />
+		<preference name="android-installLocation" value="auto" />
+		<preference name="SplashScreenDelay" value="2000" />
+		<preference name="ErrorUrl" value="http://www.online.shiftclocker.com/index.php" />
+		<preference name="BackgroundColor" value="0x000000" />
+		<preference name="DisallowOverscroll" value="false" />
+		<preference name="LoadingDialog" value="Shiftclocker Inc,Shiftclocker Inc" />
+		<preference name="LoadUrlTimeoutValue" value="2000" />
+		<platform name="ios">
+		<icon src="images/57x57.png" width="57" height="57" />
+		<icon src="images/144x144.png" width="144" height="144" />
+		<icon src="images/logo.png" width="72" height="72" />
+		<icon src="images/logo.png" width="114" height="114" />
+		<icon src="images/60X60.png" width="60" height="60" />
+		<icon src="images/120X120.png" width="120" height="120" />
+		<icon src="images/180X180.png" width="180" height="180" />
+		<icon src="images/logo.png" width="29" height="29" />
+		<icon src="images/logo.png" width="58" height="58" />
+		<icon src="images/logo.png" width="40" height="40" />
+		<icon src="images/logo.png" width="80" height="80" />
+		<splash src="images/splash.png" width="640" height="1136" /> 
+		<splash src="images/splash.png" width="640" height="960" /> 
+		<splash src="images/splash.png" width="320" height="480" /> 
+		<splash src="images/splash.png" width="768" height="1024" /> 
+		<splash src="images/splash.png" width="1024" height="768" /> 
+		</platform>
+		<platform name="android">
+		<icon src="images/36x36.png" qualifier="ldpi" />
+		<icon src="images/48x48.png" qualifier="mdpi" />
+		<icon src="images/72x72.png" qualifier="hdpi" />
+		<icon src="images/92x92.png" qualifier="xhdpi" />
+		<icon src="images/logo.png" qualifier="xxhdpi" />
+		<splash src="images/240x320.png" qualifier="ldpi" />
+		<splash src="images/320x240.png" qualifier="" />
+		<splash src="images/splash.png" qualifier="mdpi" />
+		<splash src="images/splash.png" qualifier="hdpi" />
+		<splash src="images/splash.png" qualifier="xhdpi" />
+		<splash src="images/splash.png" qualifier="xxhdpi" />
+		</platform>
+		<platform name="winphone">
+		</platform>
+		 <icon src="icon.png" />
+		<access origin="*" />
+		<access origin="www.shiftclocker.com" subdomains="true" />
+		<access origin="www.online.shiftclclocker.com" subdomains="true" />
+		<allow-intent href="*" />
+		<allow-intent href="http://*/*" />
+		<allow-intent href="https://*/*" />
+		<allow-intent href="tel:*" />
+		<allow-intent href="mailto:*" />
+		<allow-intent href="geo:*" />
+		<platform name="android" >
+		<allow-intent href="market:*" />
+		</platform>
+		<platform name="ios" >
+		<allow-intent href="itms:*" />
+		</platform>
+		<platform name="ios" >
+		<allow-intent href="itms-apps:*" />
+		</platform>
+		<allow-intent href="*" />
+		<allow-intent href="http://*/*" />
+		<allow-intent href="https://*/*" />
+		<allow-intent href="tel:*" />
+		<allow-intent href="mailto:*" />
+		<allow-intent href="geo:*" />
+		<platform name="android" >
+		<allow-intent href="market:*" />
+		</platform>
+		<platform name="ios" >
+		<allow-intent href="itms:*" />
+		</platform>
+		<platform name="ios" >
+		<allow-intent href="itms-apps:*" />
+		</platform>
+		<allow-intent href="*" />
+		<allow-intent href="http://*/*" />
+		<allow-intent href="https://*/*" />
+		<allow-intent href="tel:*" />
+		<allow-intent href="mailto:*" />
+		<allow-intent href="geo:*" />
+		<platform name="android" >
+		<allow-intent href="market:*" />
+		</platform>
+		<platform name="ios" >
+		<allow-intent href="itms:*" />
+		</platform>
+		<platform name="ios" >
+		<allow-intent href="itms-apps:*" />
+		</platform>
+		</widget>
