@@ -99,11 +99,14 @@
     <icon src="images/logo.png" gap:platform="ios" width="80" height="80" />
 	
 	
-	<icon src="images/logo.png" gap:platform="android" gap:density="ldpi" />
-	<icon src="images/logo.png" gap:platform="android" gap:density="mdpi" />
-	<icon src="images/logo.png" gap:platform="android" gap:density="hdpi" />
-	<icon src="images/logo.png" gap:platform="android" gap:density="xhdpi" />
-	<icon src="images/logo.png" gap:platform="android" gap:density="xxhdpi" />
+	 
+	
+	
+	<icon src="images/36x36.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="images/48x48.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="images/72x72.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="images/92x92.png" gap:platform="android" gap:density="xhdpi" />
+	<icon src="images/144x144.png" gap:platform="android" gap:density="xxhdpi" />
  
 	
 	
@@ -112,11 +115,14 @@
 
     <gap:plugin name="org.apache.cordova.device" version="0.2.3" source="npm"/>
     <gap:plugin name="cordova-plugin-geolocation" source="npm"/>
-
-    <feature name="http://api.phonegap.com/1.0/battery" />
-    <feature name="http://api.phonegap.com/1.0/camera" />
-    <feature name="http://api.phonegap.com/1.0/network" />
-    <feature name="http://api.phonegap.com/1.0/notification" />
+		<feature name="http://api.phonegap.com/1.0/battery" />
+		<feature name="http://api.phonegap.com/1.0/camera" />
+		<feature name="http://api.phonegap.com/1.0/contacts" />
+		<feature name="http://api.phonegap.com/1.0/file" />
+		<feature name="http://api.phonegap.com/1.0/geolocation" />
+		<feature name="http://api.phonegap.com/1.0/media" />
+		<feature name="http://api.phonegap.com/1.0/network" />
+		<feature name="http://api.phonegap.com/1.0/notification" />
 
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
